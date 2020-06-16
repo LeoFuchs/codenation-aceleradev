@@ -20,6 +20,7 @@ entrypoints==0.3
 enum-compat==0.0.3
 future==0.18.2
 idna==2.9
+importlib-metadata==1.6.1
 ipykernel==5.2.0
 ipython==7.13.0
 ipython-genutils==0.2.0
@@ -28,7 +29,9 @@ jedi==0.16.0
 Jinja2==2.11.1
 jmespath==0.9.5
 jsonschema==3.2.0
+jupyter==1.0.0
 jupyter-client==6.1.2
+jupyter-console==6.1.0
 jupyter-core==4.6.3
 kiwisolver==1.2.0
 MarkupSafe==1.1.1
@@ -57,6 +60,8 @@ pyrsistent==0.16.0
 python-dateutil==2.8.1
 pytz==2019.3
 pyzmq==19.0.0
+qtconsole==4.7.4
+QtPy==1.9.0
 requests==2.23.0
 s3transfer==0.3.3
 scipy==1.4.1
@@ -77,3 +82,4 @@ watchdog==0.10.2
 wcwidth==0.1.9
 webencodings==0.5.1
 widgetsnbextension==3.5.1
+zipp==3.1.0
