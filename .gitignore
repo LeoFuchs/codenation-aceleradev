@@ -1,9 +1,9 @@
-### PyCharm ###
-# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio, WebStorm and Rider
-# Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
+### JupyterNotebooks ###
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
 
+### PyCharm ###
 .idea/
-venv/
 
 # User-specific stuff
 .idea/**/workspace.xml
@@ -75,7 +75,6 @@ fabric.properties
 .idea/caches/build_file_checksums.ser
 
 ### PyCharm Patch ###
-# Comment Reason: https://github.com/joeblau/gitignore.io/issues/186#issuecomment-215987721
 
 # *.iml
 # modules.xml
@@ -93,12 +92,7 @@ fabric.properties
 .idea/**/markdown-navigator-enh.xml
 .idea/**/markdown-navigator/
 
-# Cache file creation bug
-# See https://youtrack.jetbrains.com/issue/JBR-2257
-.idea/$CACHE_FILE$
-
-### venv ###
-# Virtualenv
+### VirtualEnv ###
 venv/
 .Python
 [Bb]in
