@@ -76,3 +76,61 @@ distribuição normal e caudas pesadas.
 
 - __Padronização__ _(Standardization)_: A padronização por sua vez possui o objetivo de padronizar as variáveis, 
 resultando em uma média igual a 0 e um desvio padrão igual a 1.
+
+### Estatística Descritiva Bivariada/Multivariada
+
+Em outras palavras, são amostras que possuem mais de uma variável e que se busca entender o relacionamento entre os 
+pares ou o conjunto de variáveis. Este relacionamento pode ser notado através de: Tabulações cruzadas e tabelas de 
+contingência, representações gráficas através de gráficos de dispersão, medidas quantitativas de dependência e 
+descrições de distribuições condicionais. 
+
+- __Correlação__ _(Correlation)_: Medida padronizada da relação entre duas variáveis. Em outras palavras, indica a 
+força (forte ou fraca) e a direção do relacionamento (positiva ou negativa) entre duas variáveis. A correlação oscila
+entre -1 e 1. Se o valor estiver próximo de 0, as variáveis não possuem correlação. Em uma correlação positiva, as
+variáveis se movem juntas, ficando mais forte quando se aproxima de 1, enquanto na correlação negativa, as variáveis
+se movem em direções opostas, ficando mais forte quando se aproxima de -1. Duas variáveis são perfeitamente 
+correlacionadas quando possuem a correlação de 1 (perfeitamente positiva) ou -1 (perfeitamente negativa).  
+
+__Observação__: Correlação não significa Causalidade!
+
+- __Correlação de Spearman__: Avalia a relação __monotônica__ entre duas variáveis contínuas ou ordinais. 
+Em uma relação monotônica (quando a correlação é crescente ou decrescente, ou estritamente crescente ou estritamente 
+decrescente ou constante), as variáveis tendem a mudar juntas mas não necessariamente a uma taxa constante. O 
+coeficiente de correlação de Spearman baseia-se nos valores classificados de cada variável, em vez dos dados brutos.
+A correlação de Spearman é muito usada para avaliar relações envolvendo variáveis ordinais (que possuem ordem). Por 
+exemplo, utilizar a correlação de Spearman para avaliar se a ordem na qual os funcionários executam um teste 
+está relacionada ao número de meses de emprego.
+
+__Observação__: Correlação de Spearman é menos sensível a _outliers_.
+
+- __Correlação de Pearson__: Avalia a relação __linear__ entre duas variáveis contínuas. Uma relação é linear quando a 
+mudança em uma variável é associada a uma mudança __proporcional__ na outra variável. Por exemplo, utilizar a 
+correlação de Pearson para avaliar se aumentos na temperatura da instalação de produção estão associados a uma 
+redução da espessura da cobertura de chocolate.
+
+### Visualização dos Dados
+
+- __Histograma__ _(Histogram)_: Possui a distribuição de frequências, com a representação gráfica feita em barras
+verticais ou horizontais. Pode ser dividido em classes uniformes ou não uniformes, onde a base de cada retângulo 
+representa uma classe específica e a sua altura representa a quantidade, a frequência absoluta ou a densidade da
+frequência para classes não uniformes.
+
+![](https://chartio.com/assets/27a327/tutorials/charts/histograms/bd0509cd76e528096e481e0a7078d9ddb4a8da50022f947fee4c461d0b40a1fb/histogram-example-1.png)
+
+- __Diagrama de Caixas__ _(Box Plot)_: Ferramenta gráfica para representar a variação de dados observados de uma 
+variável numérica por meio de quartis. A reta (_whisker_ ou fio de bigode) que se estende verticalmente ou 
+horizontalmente a partir da caixa indica a variabilidade fora do quartil superior e inferior. Além disso, _outlires_
+são tratados como pontos individuais após a reta.
+
+![](https://www.gradusct.com.br/wp-content/uploads/2018/07/Boxplot-04.png)
+
+- __Dispersão__ _(Scatter Plot)_: Representa duas (tipicamente) ou mais variáveis, utilizando coordenadas cartesianas
+para exibir valores de um conjunto de dados. São exibidos como uma coleção de pontos, cada um com o valor de uma
+variável.
+
+![](https://www.r-graph-gallery.com/img/graph/13-scatter-plot2.png)
+
+- __Matriz de Correlação__ _(Correlation Matrix)_: Uma tabela que apresenta a correlação entre valores de um conjunto
+de dados.
+
+![](https://vizerybusiness.files.wordpress.com/2019/01/cm1.png) 
